@@ -1,0 +1,60 @@
+/* Apply to whole page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centered card box */
+  .card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px 25px;
+    text-align: center;
+  }
+  
+  /* Input fields */
+  input, textarea {
+    width: 90%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #574fcf;
+  }
+  
+  /* Chat box style */
+  .chat-box {
+    background: #f0f0ff;
+    border: 2px solid #6c63ff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  /* Headings */
+  
+  

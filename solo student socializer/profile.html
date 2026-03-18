@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile - Solo Student Socializer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="card">
+    <h2>Profile Setup</h2>
+    <p>Name: <span id="displayName"></span></p>
+    <input type="text" id="skills" placeholder="Your Skills (e.g. Python, HTML)">
+    <br><br>
+    <button onclick="saveProfile()">Start Swiping</button>
+  </div>
+
+  <script>
+    document.getElementById("displayName").innerText = localStorage.getItem("studentName");
+
+    function saveProfile() {
+      const skills = document.getElementById("skills").value;
+      if (skills) {
+        localStorage.setItem("studentSkills", skills.toLowerCase());
+        window.location.href = "swipe.html";
+      } else {
+        alert("Enter your skills!");
+      }
+    }
+  </script>
+</body>
+<div class="logo">
+    <img src="logo.png" alt="Logo" />
+    <h1>Solo Student Socializer</h1>
+  </div>
+  
+</html>
